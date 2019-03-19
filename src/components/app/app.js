@@ -54,7 +54,7 @@ export default class App extends Component {
         });
     };
 
-    togglePropery(arr, id, propName) {
+    toggleProperty(arr, id, propName) {
         const idx = arr.findIndex((el) => el.id === id);
         const oldItem = arr[idx];
         const newItem = {
@@ -74,14 +74,14 @@ export default class App extends Component {
     onToggleImportant = (id) => {
         this.setState(({todoData}) => {
             return {
-                todoData: this.togglePropery(todoData, id, 'important')
+                todoData: this.toggleProperty(todoData, id, 'important')
             }
         });
     };
     onToggleDone = (id) => {
         this.setState(({todoData}) => {
             return {
-                todoData: this.togglePropery(todoData, id, 'done')
+                todoData: this.toggleProperty(todoData, id, 'done')
             }
         });
     };
