@@ -96,9 +96,15 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="702" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
+=======
     <option name="x" value="943" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
+>>>>>>> d6adbc5958cec052ce37b2520504e0c050649c09
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
